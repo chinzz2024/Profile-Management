@@ -1,6 +1,5 @@
-// src/app/page.js
-import ProfilesPage from './profiles/page';
+import ProfilesList from '@/components/ProfilesList';
 
 export default function Home() {
-  return <ProfilesPage />;
+  return <ProfilesList />;
 }
